@@ -1,5 +1,4 @@
 import "./App.css";
-import { motion } from "framer-motion";
 import carBG from "./assets/car.jpg";
 import EachInfo from "./Components/EachInfo";
 
