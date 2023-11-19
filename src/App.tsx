@@ -29,8 +29,8 @@ function App() {
 	return (
 		<div className="flex min-w-screen min-h-screen justify-center items-center flex-col bg-gradient-to-l from-white gap-5 via-purple-200 to-black">
 			<img className="fixed top-0 w-screen h-screen object-cover" src={carBG} />
-			{data.map((info) => (
-				<EachInfo {...info} />
+			{data.map((info, i) => (
+				<EachInfo {...info} index={i} />
 			))}
 		</div>
 	);
